@@ -1,0 +1,39 @@
+{
+  "id": "c53d399f48e86ec5f9c2936667c54c88",
+  "project_id": "",
+  "title": "Mock Test",
+  "created_at": "2025-11-17T10:29:58.8842808-05:00",
+  "updated_at": "2025-11-17T10:30:33.5021873-05:00",
+  "summary": "",
+  "metadata": {
+    "agentModeEnabled": false,
+    "model": "claude-3-5-sonnet-20241022",
+    "userId": "user-1"
+  },
+  "messages": [
+    {
+      "id": "msg-809ef5a9",
+      "role": "user",
+      "content": "What is the weather?",
+      "created_at": "2025-11-17T10:30:30.9269644-05:00"
+    },
+    {
+      "id": "msg-a226d0de",
+      "role": "assistant",
+      "content": "I'm a mock AI assistant. In production mode (USE_REAL_LLM=true), I would check the real weather for you using OpenRouter API.",
+      "created_at": "2025-11-17T10:30:30.9296608-05:00"
+    },
+    {
+      "id": "msg-dfb37c03",
+      "role": "user",
+      "content": "Tell me about skills",
+      "created_at": "2025-11-17T10:30:33.4793706-05:00"
+    },
+    {
+      "id": "msg-64049996",
+      "role": "assistant",
+      "content": "I can help you with SkillStack features! This is a mock response. Enable real AI by setting USE_REAL_LLM=true. Current model: claude-3-5-sonnet-20241022",
+      "created_at": "2025-11-17T10:30:33.4816487-05:00"
+    }
+  ]
+}

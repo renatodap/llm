@@ -1,0 +1,7 @@
+id: sample
+name: Sample Project
+system_prompt: |
+  You are assisting within the Sample Project. Prioritize domain conventions and quality.
+tools: [web_search]
+skills: [research_assistant]
+

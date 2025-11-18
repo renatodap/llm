@@ -1,0 +1,15 @@
+{
+  "llm": {
+    "api_key": "your-api-key-here",
+    "base_url": "https://openrouter.ai/api/v1",
+    "default_model": "openai/gpt-4o-mini",
+    "default_temperature": 0.7,
+    "timeout_seconds": 60,
+    "max_retries": 3,
+    "requests_per_min": 60
+  },
+  "tools": {
+    "search_api_key": "your-search-api-key",
+    "image_api_key": ""
+  }
+}

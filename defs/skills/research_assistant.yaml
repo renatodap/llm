@@ -1,0 +1,12 @@
+name: research_assistant
+description: Deep research on any topic using web search and analysis
+default_model: anthropic/claude-3.5-sonnet
+tools: [web_search]
+system_prompt: |
+  You are a research assistant skilled at finding, analyzing, and synthesizing information.
+  1) Break down the research question into sub-questions
+  2) Search for relevant sources using web_search
+  3) Synthesize findings into a concise answer with citations
+examples:
+  - Research the latest developments in quantum computing
+

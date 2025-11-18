@@ -1,0 +1,33 @@
+# LLM Library Configuration
+# Copy this file to llm.yaml and customize for your needs
+# Environment variables will override these settings
+
+llm:
+  # OpenRouter API key (can also set OPENROUTER_API_KEY env var)
+  api_key: "your-api-key-here"
+
+  # API base URL (default: https://openrouter.ai/api/v1)
+  base_url: "https://openrouter.ai/api/v1"
+
+  # Default model to use (see internal/llm/models.go for all options)
+  # Options: openai/gpt-4o, openai/gpt-4o-mini, anthropic/claude-3.5-sonnet, etc.
+  default_model: "openai/gpt-4o-mini"
+
+  # Default temperature (0.0 = deterministic, 2.0 = very creative)
+  default_temperature: 0.7
+
+  # Request timeout in seconds
+  timeout_seconds: 60
+
+  # Maximum number of retries on failure
+  max_retries: 3
+
+  # Rate limiting: requests per minute
+  requests_per_min: 60
+
+tools:
+  # API key for web search tool (Bing or Google)
+  search_api_key: "your-search-api-key"
+
+  # API key for image analysis (if different from main API key)
+  image_api_key: ""

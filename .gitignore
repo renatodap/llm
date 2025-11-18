@@ -1,0 +1,39 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+llm
+
+# Config files with secrets
+llm.yaml
+llm.yml
+llm.json
+.llm.yaml
+.llm.yml
+.llm.json
+
+# Keep example configs
+!*.example.yaml
+!*.example.json
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+/build/
+/dist/
+
+# Dependencies
+/vendor/

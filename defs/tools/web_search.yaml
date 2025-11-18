@@ -1,0 +1,16 @@
+name: web_search
+description: Web search via OpenRouter model
+required_model: perplexity/sonar
+model_type: text
+parameters:
+  type: object
+  properties:
+    query:
+      type: string
+      description: Search query
+    num_results:
+      type: integer
+      description: Number of results to summarize
+      default: 5
+  required: [query]
+
